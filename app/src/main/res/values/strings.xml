@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">IPDroid</string>
+
+    <string name="externalIP">IP Externo</string>
+    <string name="internalIP">IP Interno (Wi-Fi)</string>
+
+    <string name="notAvailable">N/D</string>
+
+    <string name="hostname">Hostname: </string>
+    <string name="loc">Localização: </string>
+    <string name="org">Organização: </string>
+    <string name="city">Cidade: </string>
+    <string name="region">Região: </string>
+    <string name="country">País: </string>
+
+    <string name="loadInformations">Carregar Informações</string>
+
+    <string name="gettingInformations">Obtendo Informações</string>
+    <string name="pleaseWait">Por favor, aguarde...</string>
+
+    <string name="couldNotGetInfo">Não foi possível obter informações! Erro: </string>
+</resources>
