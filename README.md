@@ -13,9 +13,9 @@
 
 ###### Veja um exemplo na imagem abaixo:
 
-<br />
+<img src="http://i.imgur.com/x7gsVsi.png" width="50%" height="50%" />
 
-<img src="http://i.imgur.com/9RxmTv6.png" width="45%" height="45%" />
+## [Verifique o CHANGELOG.txt para maiores informações sobre novas versões!](https://raw.github.com/Wolfterro/IPDroid/master/CHANGELOG.txt)
 
 ### Idiomas Disponíveis:
  - Português Brasileiro (Padrão)
