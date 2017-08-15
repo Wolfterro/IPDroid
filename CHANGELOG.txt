@@ -1,0 +1,18 @@
+IPDroid
+=======
+
+Um simples aplicativo que permite obter informações do seu Endereço IP!
+-----------------------------------------------------------------------
+
+CHANGELOG:
+==========
+
+VERSÃO 1.1:
+- Alterada aparência do aplicativo.
+
+#----------------------------------
+
+VERSÃO 1.0:
+- Versão inicial do aplicativo.
+
+#----------------------------------

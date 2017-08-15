@@ -1,5 +1,5 @@
 /*
-The MIT License (MIT)
+MIT License
 
 Copyright (c) 2017 Wolfgang Almeida
 
@@ -120,29 +120,12 @@ public class IPInfoThread extends Thread {
                 textViewInternalIP.setText(internalIP);
                 textViewExternalIP.setText(ii.getExternalIP());
 
-                textViewHostname.setText(String.format("%s %s",
-                        ((Activity) c).getString(R.string.hostname),
-                        ii.getHostname()));
-
-                textViewLoc.setText(String.format("%s %s",
-                        ((Activity) c).getString(R.string.loc),
-                        ii.getLoc()));
-
-                textViewOrg.setText(String.format("%s %s",
-                        ((Activity) c).getString(R.string.org),
-                        ii.getOrg()));
-
-                textViewCity.setText(String.format("%s %s",
-                        ((Activity) c).getString(R.string.city),
-                        ii.getCity()));
-
-                textViewRegion.setText(String.format("%s %s",
-                        ((Activity) c).getString(R.string.region),
-                        ii.getRegion()));
-
-                textViewCountry.setText(String.format("%s %s",
-                        ((Activity) c).getString(R.string.country),
-                        ii.getCountry()));
+                textViewHostname.setText(ii.getHostname());
+                textViewLoc.setText(ii.getLoc());
+                textViewOrg.setText(ii.getOrg());
+                textViewCity.setText(ii.getCity());
+                textViewRegion.setText(ii.getRegion());
+                textViewCountry.setText(ii.getCountry());
             }
             else {
                 String message = String.format("%s %s",
