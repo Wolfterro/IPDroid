@@ -43,7 +43,7 @@ import java.util.Scanner;
 public class GetIPInfo {
     // URL da API do IPInfo
     // ====================
-    private String IPInfo = "http://ipinfo.io/json";
+    private String IPInfo = "https://ipinfo.io/json";
     private String[] keys = {"ip", "hostname", "city", "region", "country", "loc", "org"};
 
     // Informações resgatadas
@@ -70,6 +70,7 @@ public class GetIPInfo {
     // Inicializando resgate de informações sobre o endereço IP
     // ========================================================
     public void init() {
+        String res = "";
         try {
             URL u = new URL(IPInfo);
             HttpURLConnection conn = (HttpURLConnection) u.openConnection();
@@ -79,7 +80,7 @@ public class GetIPInfo {
 
             Scanner s = new Scanner(stream);
             s.useDelimiter("\\A");
-            String res = s.hasNext() ? s.next() : "";
+            res = s.hasNext() ? s.next() : "";
             s.close();
 
             JSONObject obj = new JSONObject(res);
@@ -108,15 +109,15 @@ public class GetIPInfo {
         }
         catch (MalformedURLException e) {
             error = "MALFORMED_URL_EXCEPTION";
-            Log.e("GetIPInfo().init()", e.toString());
+            Log.e("GetIPInfo().init()", e.getMessage());
         }
         catch (IOException e) {
             error = "NOT_FOUND_OR_INNACESSIBLE";
-            Log.e("GetIPInfo().init()", e.toString());
+            Log.e("GetIPInfo().init()", e.getMessage());
         }
         catch (JSONException e) {
             error = "JSON_EXCEPTION_ERROR";
-            Log.e("GetIPInfo().init()", e.toString());
+            Log.e("GetIPInfo().init()", e.getMessage());
         }
     }
 
