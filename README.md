@@ -28,6 +28,6 @@
     cd IPDroid/
 
 ##### Caso queira baixar o aplicativo já compilado, em formato .apk, use o link abaixo:
-#### ***Release:*** https://github.com/Wolfterro/IPDroid/releases/tag/v1.1-Release
+#### ***Release:*** https://github.com/Wolfterro/IPDroid/releases/tag/v1.2-Release
 
 ###### Caso não possua o git e queira baixar o repositório, baixe através deste [Link](https://github.com/Wolfterro/IPDroid/archive/master.zip) ou clique em "Clone or Download", no topo da página.
